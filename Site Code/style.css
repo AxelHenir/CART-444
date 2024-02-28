@@ -1,14 +1,102 @@
-.header {
-    padding: 100px; /* some padding */
-    text-align: left; /* center the text */
-    background: #ffffff; /* green background */
-    color: rgb(0, 0, 0); /* white text color */
+.banner h1{
 
-    width: 55%;
+  font-family: "Major Mono Display", monospace;
+  
+  font-weight: 800;
+  font-style: normal;
 
+  font-size: 32x;
+  padding: 4%; /* some padding */
+  text-align: left; /* center the text */
+  background: #ffffff; /* green background */
+  color: rgb(0, 0, 0); /* white text color */
+
+}
+
+.header h1{
+  font-family: "Major Mono Display", monospace;
+  
+  font-weight: 800;
+  font-style: normal;
+
+  font-size: 24px;
+  padding: 3%; /* some padding */
+  text-align: left; /* center the text */
+  background: #fafafa; /* green background */
+  color: rgb(0, 0, 0); /* white text color */
+}
+
+.richtextLarge{
+  font-family: "Noto Sans Mono", monospace;
+
+  font-weight: 600;
+  font-style: normal;
+
+  font-size: 16px;
+  padding: 2%; /* some padding */
+  text-align: left; /* center the text */
+  background: #ffffff; /* green background */
+  color: rgb(0, 0, 0); /* white text color */
+
+}
+
+.richtextSmall{
+  font-family: "Noto Sans Mono", monospace;
+
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 16px;
+  padding: 2%; /* some padding */
+  text-align: left; /* center the text */
+  background: #fafafa; /* green background */
+  color: rgb(0, 0, 0); /* white text color */
+
+}
+
+.richtextLong{
+  font-family: "Cutive Mono", monospace;
+
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 16px;
+  padding: 2%; /* some padding */
+  text-align: left; /* center the text */
+  background: #ffffff; /* green background */
+  color: rgb(0, 0, 0); /* white text color */
+
+}
+.richtextLong p{
+  text-indent: 150px;
+  justify-self: auto;
+}
+
+  .mobile {
+    width: 25%;
+    height: 300 px;
+    background-color: #FF9B42;
   }
 
-  .container {
+  .tablet {
+    width: 45%;
+    height: 300 px;
+    background-color: #42f2ff;
+  }
+
+  .desktop {
+    width: 80%;
+    height: 300 px;
+    background-color: #FF9B42;
+  }
+
+  .extraLarge {
+    width: 100%;
+    height: 300 px;
+    background-color: #1891a1;
+  }
+
+  .containerProject {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -24,7 +112,61 @@
     
   }
 
-  .container h1{
+  .container1 {
+    width: 45%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 0px;
+
+    background: #7a5252;
+
+    padding: 50px;
+    
+  }
+
+  .container2 {
+    width: 55%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 0px;
+
+    background: #9b5757;
+
+    padding: 50px;
+    
+  }
+
+  .container3 {
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 0px;
+
+    background: #613232;
+
+    padding: 50px;
+    
+  }
+
+  .containerProject h1{
     padding: 0px;
     margin: 0px;
     
@@ -36,8 +178,6 @@
     font-weight: 400;
     font-style: normal;
 
-    
-    
   }
 
   .palette {
@@ -45,21 +185,25 @@
     flex-direction: row;
     flex-wrap: nowrap;
 
+    font-family: "Noto Sans Mono", monospace;
+
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 8px;
+
     justify-content: flex-start;
     align-items: flex-start;
 
     gap: 0px;
 
-    max-width: 1000px;
     padding: 10px;
-    background-color: #ffffff;
-    border-radius: 4px;
-    
+
   }
 
   .color-box {
-    width: 1%;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 0px;
   }
 
@@ -81,53 +225,107 @@
     width: 50%;
   }
   
-  .header h1 {
-    font-size: 40px;
-
-    font-family: "Major Mono Display", monospace;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  body {
-
-    font-family: "Cutive Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-
-  }
 
   /* Style the top navigation bar */
 .navbar {
-    overflow: hidden; /* Hide overflow */
-    background-color: #333; /* Dark background color */
+    overflow: hidden;
+    background-color: #333; 
+    font-family: "Cutive Mono", monospace;
+
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 18px;
   }
   
-  /* Style the navigation bar links */
+  
   .navbar a {
-    float: left; /* Make sure that the links stay side-by-side */
-    display: block; /* Change the display to block, for responsive reasons (see below) */
-    color: white; /* White text color */
-    text-align: center; /* Center the text */
-    padding: 14px 20px; /* Add some padding */
-    text-decoration: none; /* Remove underline */
+    float: left;
+    display: block; 
+    color: white; 
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none; 
+    background-color: #333;
+
+    transition-duration: 300ms;
 }
   
-  /* Right-aligned link */
-  .navbar a.right {
-    float: right; /* Float a link to the right */
-  }
-  
-  /* Change color on hover/mouse-over */
-  .navbar a:hover {
-    background-color: #ddd; /* Grey background color */
-    color: black; /* Black text color */
+.navbar a:hover {
+  background-color: #aaa; 
+  color: black; 
+}
+
+  a.activePage{
+    background-color: #333;
+    color: #FF9B42;
   }
 
   .footer {
     padding: 20px; /* Some padding */
     text-align: center; /* Center text*/
     background: #ddd; /* Grey background */
+  }
+
+  .button {
+
+    border: none;
+    color: white;
+    width:200px;
+    height:40px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    
+    margin: 1%;
+    transition-duration: 300ms;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white;
+    color: black;
+    border: 1px solid #ff9b42;
+  }
+  
+  .button1:hover {
+    background-color: #ff9b42;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white;
+    color: black;
+    border: 1px solid #0f0f0f;
+  }
+  
+  .button2:hover {
+    background-color: #0f0f0f;
+    color: #ffffff;
+  }
+
+  .button3 {
+    background-color: #dddddd;
+    color: #3d3d3d;
+    border: 1px solid #0f0f0f;
+    cursor:default;
+  }
+
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 1px solid #0081f5;
+  }
+  
+  .button4:hover {
+    background-color: #0081f5;
+    color: white;
   }
 
 
