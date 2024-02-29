@@ -72,45 +72,50 @@
   justify-self: auto;
 }
 
-  .mobile {
-    width: 25%;
-    height: 300 px;
-    background-color: #FF9B42;
-  }
 
-  .tablet {
-    width: 45%;
-    height: 300 px;
-    background-color: #42f2ff;
-  }
+.containerProject {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 
-  .desktop {
-    width: 80%;
-    height: 300 px;
-    background-color: #FF9B42;
-  }
+  justify-content: flex-start;
+  align-items: flex-start;
 
-  .extraLarge {
-    width: 100%;
-    height: 300 px;
-    background-color: #1891a1;
-  }
+  gap: 0px;
 
-  .containerProject {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+  background: #ffffff;
 
-    justify-content: flex-start;
-    align-items: flex-start;
+  padding: 0px;
 
-    gap: 0px;
+  
 
-    background: #ffffff;
+}
 
-    padding: 0px;
-    
-  }
+.label {
+  width: 45%;
+  height:160px;
+  padding: 20px;
+
+  background-color: #dddddd;
+
+  outline: 1px solid;
+  outline-color: #0f0f0f;
+}
+
+.color-strip {
+  width: 50px;
+  height: 200px;
+
+  outline: 1px solid;
+}
+
+.previewImage {
+  width: 55%;
+  height:160px;
+  padding: 20px;
+
+  background: #dddddd;
+}
 
   .container1 {
     width: 45%;
@@ -207,23 +212,7 @@
     border-radius: 0px;
   }
 
-  .colorStrip {
-    background-color: rgb(0, 221, 221);
-    padding:100px;
-  }
-
-  .label {
-    width: 45%;
-    padding: 10px;
-
-    outline: #333;
-  }
-
-  .previewImage {
-    padding: 100px;
-    background: #3f3f3f;
-    width: 50%;
-  }
+  
   
 
   /* Style the top navigation bar */
