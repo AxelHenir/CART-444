@@ -67,11 +67,6 @@
   color: rgb(0, 0, 0); /* white text color */
 
 }
-.richtextLong p{
-  text-indent: 150px;
-  justify-self: auto;
-}
-
 
 .containerProject {
   display: flex;
@@ -96,17 +91,15 @@
   height:160px;
   padding: 20px;
 
-  background-color: #dddddd;
+  background-color: #FFFFFF;
 
-  outline: 1px solid;
-  outline-color: #0f0f0f;
+  
+
 }
 
 .color-strip {
-  width: 50px;
+  width: 5px;
   height: 200px;
-
-  outline: 1px solid;
 }
 
 .previewImage {
@@ -114,11 +107,21 @@
   height:160px;
   padding: 20px;
 
-  background: #dddddd;
+  background: #FFFFFF;
+}
+
+.placeholderImage{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
 }
 
   .container1 {
-    width: 45%;
+    width: 65%;
 
     display: flex;
     flex-direction: column;
@@ -129,14 +132,14 @@
 
     gap: 0px;
 
-    background: #7a5252;
+    background: #ffffff;
 
-    padding: 50px;
+    padding: 5%px;
     
   }
 
   .container2 {
-    width: 55%;
+    width: 65%;
 
     display: flex;
     flex-direction: column;
@@ -147,28 +150,9 @@
 
     gap: 0px;
 
-    background: #9b5757;
+    background: #F8F8F8;
 
-    padding: 50px;
-    
-  }
-
-  .container3 {
-    width: 75%;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-
-    justify-content: center;
-    align-items: flex-start;
-
-    gap: 0px;
-
-    background: #613232;
-
-    padding: 50px;
-    
+    padding: 5%;
   }
 
   .containerProject h1{
@@ -177,7 +161,7 @@
     
     text-align: left;
    
-    color: rgb(77, 77, 77);
+    color: #0f0f0f;
 
     font-family: "Cutive Mono", monospace;
     font-weight: 400;
